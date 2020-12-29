@@ -3,6 +3,7 @@ Experimenting with minimal parsing of PDB files for function names and offsets
 
 ### Usage example - resolving offsets in the CallTrace field from Sysmon Event ID 10
 In this simple example, I have the necessary PDB files for each DLL/EXE in the calltrace field downloaded from Microsoft's symbol server stored in a single folder
+
     import pdb_func
     from pathlib import Path, PureWindowsPath
 
